@@ -10,6 +10,12 @@ This is a simple command-line Blackjack game written in Python. Enjoy the thrill
 
 The goal is to get as close to 21 as possible without going over. If you go over 21, you **bust** 💥 and lose the game!
 
+### If you dont have a pet python here is a couple below:
+- **YOU ONLY NEED ONLY VERSION OF PYTHON TO RUN THIS !!**
+- [Python 3.11.6](https://github.com/KernFerm/Py3.11.6installer)
+- [Python 3.11.9](https://github.com/KernFerm/Py3.11.9installer)
+- [Python 3.12.1](https://github.com/KernFerm/Py3.12.1-installer-batch)
+
 ### 📝 User Commands
 
 - `1` 👉 **Hit** - Draw a card.
