@@ -104,7 +104,7 @@ pause
 - Feel free to fork this repository and make improvements. Contributions are welcome! 🛠✨
 
 ## 📜 License
-- This project is licensed under the [MIT License](). See the LICENSE file for details.
+- This project is licensed under the [MIT License](https://github.com/KernFerm/black-jack-mini-game/blob/main/LICENSE). See the LICENSE file for details.
 
 
 # 🎮 Enjoy the Game!
