@@ -119,3 +119,6 @@ pause
 ------
 ------
 
+### Acknowledgement
+
+- Forked repo from [@LeopoldPrime](https://github.com/LeopoldPrime/Blackjack-Minigame) then `Remade it better` 
