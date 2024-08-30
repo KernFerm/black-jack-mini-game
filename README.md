@@ -33,8 +33,8 @@ The goal is to get as close to 21 as possible without going over. If you go over
    ```
 ## Option 2: Automated Setup Using Batch Script
 - If you prefer an automated setup, you can use the provided batch script:
-- `Batch script is included in the repo above with all the rest of the files
-- So no need to create a file.
+- `Batch script` is included in the repo above with all the rest of the files
+- `So no need to create a file.`
 
 ### example 
 ```batch
