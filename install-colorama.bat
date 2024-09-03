@@ -1,6 +1,14 @@
 @echo off
 setlocal
 
+:: Check if Python is installed
+python --version >nul 2>&1
+if %errorlevel% neq 0 (
+    echo [ERROR] Python is not installed or not added to the PATH.
+    echo Please install Python or ensure it is added to your PATH environment variable.
+    exit /b %errorlevel%
+)
+
 :: Define the package name
 set "PACKAGE=colorama"
 
