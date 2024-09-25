@@ -1,3 +1,8 @@
+## Support the Project ⭐
+
+If you find this project useful, please give it a star! Your support is appreciated and helps keep the project growing. 🌟
+
+
 # 🎉 Welcome to Blackjack! 🎉
 
 This is a simple command-line Blackjack game written in Python. Enjoy the thrill of Blackjack with just a few lines of code and some colorful emojis! 😎🎴
