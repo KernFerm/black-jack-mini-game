@@ -30,6 +30,13 @@ The goal is to get as close to 21 as possible without going over. If you go over
 
 If you prefer a graphical interface, this version comes with a simple Tkinter-based GUI, providing buttons for "Hit," "Stand," and "Forfeit." The game state, including your cards and the dealer's cards, will be displayed in the window.
 
+## 🐍 Python Versions Supported
+- This game supports the following Python versions:
+
+1. Python 3.11.6 - [Download here](https://github.com/KernFerm/Py3.11.6installer)
+2. Python 3.11.9 - [Download here](https://github.com/KernFerm/Py3.11.9installer)
+3. Python 3.12.1 - [Download here](https://github.com/KernFerm/Py3.12.1-installer-batch)
+
 ### 🛠 GUI Setup
 
 1. Ensure you have Python installed (3.11.6 or later recommended).
@@ -115,13 +122,6 @@ pause
 - **🎨 Colored Text:** Uses colorama to bring your game to life with colors!
 - **🃏 Card Drawing:** Random card selection simulating a real Blackjack game.
 - **🏆 Win Conditions:** Play against the dealer and see if you can beat the house.
-
-## 🐍 Python Versions Supported
-- This game supports the following Python versions:
-
-1. Python 3.11.6 - [Download here](https://github.com/KernFerm/Py3.11.6installer)
-2. Python 3.11.9 - [Download here](https://github.com/KernFerm/Py3.11.9installer)
-3. Python 3.12.1 - [Download here](https://github.com/KernFerm/Py3.12.1-installer-batch)
 
 ## 📜 License
 
