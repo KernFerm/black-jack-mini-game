@@ -134,4 +134,4 @@ Unless You have written permission from the Developer or the FNBUBBLES420 ORG.
 - Have fun playing Blackjack, and may the cards be ever in your favor! 🍀🎴
 
 ## Acknowledgement
-- Forked repo from @LeopoldPrime then `Remade it better`.
+- Forked repo from [@LeopoldPrime](https://github.com/LeopoldPrime/Blackjack-Minigame) then `Remade it better`.
