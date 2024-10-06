@@ -5,7 +5,12 @@
 
 
 ## READ EVERYTHING CAREFULLY
-- **Including**: `Readme.md` , `License` , `Code_of_Conduct.md` , `Security.md`. 
+- **Including**: `Readme.md` , `License` , `Code_of_Conduct.md` , `Security.md`.
+
+- [LICENSE](https://github.com/KernFerm/black-jack-mini-game/blob/main/LICENSE)
+- [Code_of_Conduct.md](https://github.com/KernFerm/black-jack-mini-game/blob/main/CODE_OF_CONDUCT.md)
+- [Security.md](https://github.com/KernFerm/black-jack-mini-game/blob/main/SECURITY.md)
+
 ---
 ### Support the Project ⭐
 
