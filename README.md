@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/KernFerm/black-jack-mini-game/blob/main/Logo/blackjack.png" width="300" alt="Blackjack Logo">
+  <img src="https://github.com/KernFerm/black-jack-mini-game/blob/main/Logo/blackjack.png" width="375" alt="Blackjack Logo">
 </p>
 
 
