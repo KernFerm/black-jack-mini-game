@@ -45,9 +45,9 @@ If you prefer a graphical interface, this version comes with a simple Tkinter-ba
 ## 🐍 Python Versions Supported
 - This game supports the following Python versions:
 
-1. Python 3.11.6 - [Download here](https://github.com/KernFerm/Py3.11.6installer)
-2. Python 3.11.9 - [Download here](https://github.com/KernFerm/Py3.11.9installer)
-3. Python 3.12.1 - [Download here](https://github.com/KernFerm/Py3.12.1-installer-batch)
+1. **Python 3.11.6 - [Download here](https://github.com/KernFerm/Py3.11.6installer)**
+2. **Python 3.11.9 - [Download here](https://github.com/KernFerm/Py3.11.9installer)**
+3. **Python 3.12.1 - [Download here](https://github.com/KernFerm/Py3.12.1-installer-batch)**
 
 ### 🛠 GUI Setup
 
