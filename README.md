@@ -121,9 +121,6 @@ pause
 2. Python 3.11.9 - [Download here](https://github.com/KernFerm/Py3.11.9installer)
 3. Python 3.12.1 - [Download here](https://github.com/KernFerm/Py3.12.1-installer-batch)
 
-## 👨‍💻 Contributing
-- Feel free to fork this repository and make improvements. Contributions are welcome! 🛠✨
-
 ## 📜 License
 
 - This project is proprietary and all rights are reserved by the author. 
