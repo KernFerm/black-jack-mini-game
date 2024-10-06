@@ -52,7 +52,7 @@ If you prefer a graphical interface, this version comes with a simple Tkinter-ba
 1. **Ensure you have Python installed (3.11.6 or later recommended).**
 2. **Install the required dependencies by running:**
     ```
-    pip install colorama
+    pip install colorama tkinter
     ```
 
 3. **Download or clone this repo.**
