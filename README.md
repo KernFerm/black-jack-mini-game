@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://github.com/KernFerm/black-jack-mini-game/blob/main/Logo/blackjack.png" width="300" alt="Blackjack Logo">
+</p>
+
+
 
 ## READ EVERYTHING CAREFULLY
 - **Including**: `Readme.md` , `License` , `Code_of_Conduct.md` , `Security.md`. 
