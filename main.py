@@ -15,12 +15,33 @@ def clear_screen():
 clear_screen()
 print(Fore.GREEN + "🎉 Welcome to Blackjack! 🎉")
 
-# 🎴 Cards available to be selected (simplified to only face values)
-cards = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# 🎴 Cards available to be selected (simplified to only face values including Ace)
+cards = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]  # 10 repeated to simulate face cards
 
 # 🎲 Function to draw a card
 def draw_card():
     return random.choice(cards)
+
+# 🎴 Function to calculate the total of a hand with Ace handling
+def calculate_total(cards):
+    total = sum(cards)
+    # If there's an Ace and it can count as 11 without busting, count it as 11
+    if 1 in cards and total + 10 <= 21:
+        return total + 10
+    return total
+
+# 💡 Function to check if the player has busted
+def check_bust(cards):
+    return calculate_total(cards) > 21
+
+# 🤵 Dealer's turn logic: Dealer hits until they reach 17 or more
+def dealer_turn(dealer_cards):
+    while calculate_total(dealer_cards) < 17:
+        new_card = draw_card()
+        dealer_cards.append(new_card)
+        print(Fore.YELLOW + f"🤵 Dealer draws a {new_card}. Dealer's cards: {', '.join(map(str, dealer_cards))}")
+        time.sleep(1)
+    return dealer_cards
 
 # 🎴 Drawing the initial cards for the player and the dealer
 player_cards = [draw_card(), draw_card()]
@@ -32,18 +53,14 @@ time.sleep(1)
 print(f"{Fore.CYAN}🃏 Your cards: {player_cards[0]} and {player_cards[1]}")
 time.sleep(1)
 
-# 🔄 Function to calculate the total of a hand
-def calculate_total(cards):
-    return sum(cards)
-
-# 💡 Function to check if the player has busted
-def check_bust(cards):
-    return calculate_total(cards) > 21
-
 # 📊 Game loop for player decisions
 while True:
     # Clear the screen for better readability
     clear_screen()
+
+    # Display current hands
+    print(f"{Fore.YELLOW}🤵 Dealer's cards: {dealer_cards[0]} 🂠")
+    print(f"{Fore.CYAN}🃏 Your cards: {', '.join(map(str, player_cards))} (Total: {calculate_total(player_cards)})")
 
     # 📝 Asking the player for their decision
     print("\n" + Fore.MAGENTA + "What would you like to do? 🤔")
@@ -62,22 +79,25 @@ while True:
             print(Fore.RED + "💥 You've gone above 21! You busted! 💥")
             sys.exit()
     elif player_input == '2':
-        # Player stands
-        print(Fore.YELLOW + f"\n🤵 Dealer's cards: {dealer_cards[0]} and {dealer_cards[1]}")
+        # Player stands, it's the dealer's turn
+        dealer_cards = dealer_turn(dealer_cards)
+        print(Fore.YELLOW + f"\n🤵 Dealer's final cards: {', '.join(map(str, dealer_cards))} (Total: {calculate_total(dealer_cards)})")
         time.sleep(1)
-        print(Fore.CYAN + f"🃏 Your cards: {', '.join(map(str, player_cards))}")
+        print(Fore.CYAN + f"🃏 Your final cards: {', '.join(map(str, player_cards))} (Total: {calculate_total(player_cards)})")
         time.sleep(1)
-        if calculate_total(player_cards) >= calculate_total(dealer_cards):
+
+        # Compare hands to determine the winner
+        if check_bust(dealer_cards):
+            print(Fore.GREEN + "🎉 Dealer busted! You win! 🎉")
+        elif calculate_total(player_cards) > calculate_total(dealer_cards):
             print(Fore.GREEN + "🎉 You have won! Congratulations! 🎉")
+        elif calculate_total(player_cards) == calculate_total(dealer_cards):
+            print(Fore.YELLOW + "🤝 It's a tie!")
         else:
             print(Fore.RED + "😢 You have lost. Better luck next time! 😢")
         sys.exit()
     elif player_input == '3':
         # Player forfeits
-        print(Fore.YELLOW + f"🤵 Dealer's cards: {dealer_cards[0]} and {dealer_cards[1]}")
-        time.sleep(1)
-        print(Fore.CYAN + f"🃏 Your cards: {', '.join(map(str, player_cards))}")
-        time.sleep(1)
         print(Fore.RED + "🚫 You forfeited. The dealer wins automatically.")
         sys.exit()
     else:
