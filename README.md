@@ -22,6 +22,13 @@ This is a simple **Blackjack** game written in Python with both **GUI** and **co
 2. **Stand 🚶** - Keep your current hand and see if you beat the dealer.
 3. **Forfeit 🚫** - Give up and let the dealer win automatically.
 
+## 🎨 Features
+- **Command-line Version:** Play directly in the terminal using your keyboard.
+- **GUI Version:** Play using buttons with a graphical interface (Tkinter-based).
+- **🎨 Colored Text:** Uses colorama to bring your game to life with colors!
+- **🃏 Card Drawing:** Random card selection simulating a real Blackjack game.
+- **🏆 Win Conditions:** Play against the dealer and see if you can beat the house.
+
 The goal is to get as close to 21 as possible without going over. If you go over 21, you **bust** 💥 and lose the game!
 
 ### Download the EXE of the Application [Click Here](https://github.com/KernFerm/black-jack-mini-game/releases/tag/USER-FRIENDLY-EXE)
@@ -115,13 +122,6 @@ pause
     ```
     python main.py
     ```
-
-## 🎨 Features
-- **Command-line Version:** Play directly in the terminal using your keyboard.
-- **GUI Version:** Play using buttons with a graphical interface (Tkinter-based).
-- **🎨 Colored Text:** Uses colorama to bring your game to life with colors!
-- **🃏 Card Drawing:** Random card selection simulating a real Blackjack game.
-- **🏆 Win Conditions:** Play against the dealer and see if you can beat the house.
 
 ## 📜 License
 
