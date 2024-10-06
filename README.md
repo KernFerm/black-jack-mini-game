@@ -36,7 +36,7 @@ This is a simple **Blackjack** game written in Python with both **GUI** and **co
 
 The goal is to get as close to 21 as possible without going over. If you go over 21, you **bust** 💥 and lose the game!
 
-**### Download the EXE of the Application [Click Here](https://github.com/KernFerm/black-jack-mini-game/releases/tag/USER-FRIENDLY-EXE)**
+### **Download the EXE of the Application [Click Here](https://github.com/KernFerm/black-jack-mini-game/releases/tag/USER-FRIENDLY-EXE)**
 
 ## 🖥 GUI Version
 
