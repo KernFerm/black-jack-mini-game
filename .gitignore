@@ -1,0 +1,31 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment variables and virtual environments
+.env
+*.env
+venv/
+env/
+
+# Docker-related files
+docker-compose
+dockerfile
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Compiled or packaged files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Other ignored files
+install.bat
