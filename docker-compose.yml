@@ -4,6 +4,4 @@ services:
     build: .
     ports:
       - "8080:8080"
-    volumes:
-      - ./blackjack-docker:/app
     command: python blackjack.py
