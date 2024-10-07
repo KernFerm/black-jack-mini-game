@@ -18,6 +18,7 @@
 ---
 ```
 📂 .github/             - GitHub configuration folder
+📂 main-blackjack-game  - Has the main.py ( non docker )
 📂 Logo/                - Project logos
 📄 .gitignore           - Git ignored files
 📄 CODE_OF_CONDUCT.md   - Code of conduct for the project
@@ -28,7 +29,6 @@
 📄 docker-compose.yml   - Docker Compose configuration
 📄 dockerfile           - Dockerfile for building the image
 📄 install.bat          - Installation batch script
-📄 main.py              - Main Python file (non-Docker)
 📄 requirements.txt     - Python dependencies
 ```
 
