@@ -37,6 +37,48 @@ This is a simple **Blackjack** game written in Python with both **GUI** and **co
 The goal is to get as close to 21 as possible without going over. If you go over 21, you **bust** 💥 and lose the game!
 
 ### **Download the EXE of the Application [Click Here](https://github.com/KernFerm/black-jack-mini-game/releases/tag/USER-FRIENDLY-EXE)**
+-----
+
+# 🃏 Blackjack Game in Docker
+
+This project is a command-line Blackjack game built using Python and Docker.
+
+## 🐳 Docker Commands
+
+### 🛠️ Build the Docker image:
+```
+docker build -t blackjack-game .
+```
+▶️ Run the Docker container interactively:
+```
+docker run -it blackjack-game
+```
+♻️ Rebuild the Docker image without cache:
+```
+docker build --no-cache -t blackjack-game .
+```
+📋 List running containers:
+```
+docker ps
+```
+🛑 Stop a running container:
+```
+docker stop <container_id>
+```
+📜 View logs from the container:
+```
+docker logs <container_id>
+```
+🗑️ Remove the container:
+```
+docker rm <container_id>
+```
+🗑️ Remove the Docker image:
+```
+docker rmi blackjack-game
+```
+- These commands will help you manage the Blackjack game using Docker efficiently.
+
 
 ## 🖥 GUI Version
 
@@ -55,7 +97,7 @@ If you prefer a graphical interface, this version comes with a simple Tkinter-ba
 2. Install the required dependencies by running:
 
     ```
-    pip install colorama tkinter
+    pip install colorama tk
     ```
 
 3. **Run the game using:**
@@ -71,7 +113,7 @@ If you prefer a graphical interface, this version comes with a simple Tkinter-ba
 1. **Ensure you have Python installed (3.11.6 or later recommended).**
 2. **Install the required dependencies by running:**
     ```
-    pip install colorama tkinter
+    pip install colorama tk
     ```
 
 3. **Download or clone this repo.**
