@@ -1,31 +1,55 @@
-# Python bytecode files
+# Python bytecode and caches
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
 
-# Environment variables and virtual environments
-.env
-*.env
+# Virtual environment folders
 venv/
-env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python distribution files
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+
+# Environment variables
+.env
 
 # Docker-related files
-docker-compose
-dockerfile
+.dockerignore
+docker-compose.override.yml
 
 # Log files
+logs/
 *.log
 
-# OS-specific files
-.DS_Store
+# Batch files
+*.bat
+
+# Windows specific files
 Thumbs.db
+Desktop.ini
 
-# Compiled or packaged files
-*.exe
-*.dll
-*.so
-*.dylib
+# Mac specific files
+.DS_Store
 
-# Other ignored files
-install.bat
+# IDE settings (VSCode, PyCharm, etc.)
+.vscode/
+.idea/
