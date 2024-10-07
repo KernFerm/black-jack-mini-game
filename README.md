@@ -37,11 +37,18 @@ This is a simple **Blackjack** game written in Python with both **GUI** and **co
 The goal is to get as close to 21 as possible without going over. If you go over 21, you **bust** 💥 and lose the game!
 
 ### **Download the EXE of the Application [Click Here](https://github.com/KernFerm/black-jack-mini-game/releases/tag/USER-FRIENDLY-EXE)**
+
+- **Follow the Instruction to install `Docker Desktop App` if you need help**
+### Join the Discord - [Fnbubbles420 Org Community](https://www.discord.fnbubbles420.org/invite)
+
 -----
 
 # 🃏 Blackjack Game in Docker
 
 This project is a command-line Blackjack game built using Python and Docker.
+
+## Download and install `Docker`
+- **[Download Docker](https://desktop.docker.com/win/main/arm64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module)**
 
 ## 🐳 Docker Commands
 
