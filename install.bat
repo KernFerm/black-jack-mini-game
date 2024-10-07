@@ -1,10 +1,16 @@
 @echo off
-:: Batch script to install colorama and tkinter with a loading bar for finalization
+:: Batch script to install colorama, setuptools, and tkinter with a loading bar for finalization
 
-echo Installing colorama...
-pip install colorama
+echo Installing setuptools...
+pip install setuptools>=75.1.0
 
 echo Press Enter to continue to install the other dependencies.
+pause
+
+echo Installing colorama...
+pip install colorama>=0.4.5
+
+echo Press Enter to continue to install tkinter.
 pause
 
 echo Installing tkinter...
