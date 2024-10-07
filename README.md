@@ -124,6 +124,13 @@ If you prefer a graphical interface, this version comes with a simple Tkinter-ba
     ```
 
 3. **Run the game using:**
+- make sure to `CD`
+a. right click on `main.py` file in the **main-blackjack** folder
+b. go to `properties`
+c. find `location`
+d. `copy` **entire** location
+e. `paste` location you just copied paste it in `CMD.exe`
+f. press `enter`
     ```
     python main.py
     ```
@@ -141,7 +148,13 @@ If you prefer a graphical interface, this version comes with a simple Tkinter-ba
 
 3. **Download or clone this repo.**
 4. **Run the game using:**
-
+- make sure to `CD`
+a. right click on `main.py` file in the **main-blackjack** folder
+b. go to `properties`
+c. find `location`
+d. `copy` **entire** location
+e. `paste` location you just copied paste it in `CMD.exe`
+f. press `enter`
     ```
     python main.py
     ```
