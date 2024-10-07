@@ -16,6 +16,21 @@
 
 - If you find this project useful, please give it a star! Your support is appreciated and helps keep the project growing. 🌟
 ---
+```
+📂 .github/             - GitHub configuration folder
+📂 Logo/                - Project logos
+📄 .gitignore           - Git ignored files
+📄 CODE_OF_CONDUCT.md   - Code of conduct for the project
+📄 LICENSE              - License for the project
+📄 README.md            - Project documentation
+📄 SECURITY.md          - Security policies
+📄 blackjack.py         - Blackjack game logic for Docker
+📄 docker-compose.yml   - Docker Compose configuration
+📄 dockerfile           - Dockerfile for building the image
+📄 install.bat          - Installation batch script
+📄 main.py              - Main Python file (non-Docker)
+📄 requirements.txt     - Python dependencies
+```
 
 # 🎉 Welcome to Blackjack! 🎉
 
