@@ -64,7 +64,8 @@ This project is a command-line Blackjack game built using Python and Docker.
 `blackjack.py` is for **Docker**
 
 ## Download and install `Docker`
-- **[Download Docker](https://desktop.docker.com/win/main/arm64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module)**
+- **[Download Docker- arm64](https://desktop.docker.com/win/main/arm64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module)**
+- **[Download_Docker- amd64](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module)**
 
 ## 🐳 Docker Commands
 
