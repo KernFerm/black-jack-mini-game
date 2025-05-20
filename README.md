@@ -53,7 +53,7 @@ The goal is to get as close to 21 as possible without going over. If you go over
 
 ### **Download the EXE of the Application [Click Here](https://github.com/KernFerm/black-jack-mini-game/releases/tag/black-jack-mini-game-EXE)**
 
-### Join the Discord - [Fnbubbles420 Org Community](https://www.discord.fnbubbles420.org/invite)
+- [https://discord.gg/FxJd3PxXbc](https://discord.gg/FxJd3PxXbc)
 - **Follow the Instruction to install `Docker Desktop App` if you need help**
 -----
 
